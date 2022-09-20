@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author balka
- *
- */
-module newProject {
-}
