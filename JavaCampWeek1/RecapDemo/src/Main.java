@@ -1,20 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        int numberone = 251;
-        int numbertwo = 134;
-        int numberthree = 151;
-        int numberfour = 211;
-        int biggest = numberone;
 
-        if (biggest < numbertwo) {
-            biggest = numbertwo;
+        int x = 12;
+        int y = 123;
+        int z = 14;
+        int t = 78;
+        int maxnumber = x;
+
+        if (maxnumber < y) {
+            maxnumber = y;
         }
-        if (biggest < numberthree) {
-            biggest = numberthree;
+        if (maxnumber < z) {
+            maxnumber = z;
         }
-        if (biggest < numberfour) {
-            biggest = numberfour;
+        if (maxnumber < t) {
+            maxnumber = t;
         }
-            System.out.println("Maximum Number :" + biggest);
-        }
+        System.out.println("Maxnumber :"+maxnumber);
     }
+}
